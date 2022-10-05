@@ -1,16 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Masker from "./Masker";
 
-const BackgroundImg = ({ masker }) => {
+const HomeContent = ({ homeMask, ptext, head1, head2 }) => {
   return (
     <div className="background_layer">
-      <div className="masker">
-        <img src={masker} alt="masker" className="masker_img" />
-      </div>
+      <Masker url={homeMask} />
       <div className="bg_content">
-        <p>HI, I'M A FULL-STACK DEVELOPER</p>
+        <p>{ptext}</p>
         <h1>
-          JavaScript, React <br /> Java Developer.
+          {head1}
+          <br />
+          {head2}
         </h1>
         <div>
           <Link to="/project" className="btn">
@@ -25,4 +26,4 @@ const BackgroundImg = ({ masker }) => {
   );
 };
 
-export default BackgroundImg;
+export default HomeContent;
