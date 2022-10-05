@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
@@ -33,18 +33,24 @@ const Footer = () => {
               ahmet.erdonmez77@gmail.com
             </h4>
           </div>
-          <div className="github">
-            <h4>
-              {" "}
-              <BsGithub
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
-              https://github.com/ruyisbaros
-            </h4>
+        </div>
+        <div className="right">
+          <p>
+            This is me, Ahmet Erdonmez from Germany. I am a Full Stack Web
+            Developer. I really enjoy codding, creating new projects and handle
+            new challanges.
+          </p>
+          <div className="social">
+            <BsGithub
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaLinkedin
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
           </div>
         </div>
-        <div className="right"></div>
       </div>
     </div>
   );

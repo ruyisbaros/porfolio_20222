@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import masker from "../assets/bgp-2.jpg";
-const BackgroundImg = () => {
+
+const BackgroundImg = ({ masker }) => {
   return (
     <div className="background_layer">
       <div className="masker">

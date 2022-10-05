@@ -57,10 +57,10 @@ a {
 }
 
 /* CSS Imports */
-
 @import url("./styles/header.css");
 @import url("./styles/home.css");
 @import url("./styles/about.css");
 @import url("./styles/contact.css");
-@import url("./styles/backgroundImg.css");
+@import url("./styles/homebackground.css");
 @import url("./styles/footer.css");
+@import url("./styles/backgroundComp.css");
