@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    /* background-color: #eee; */
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu li{
+    padding: 0 1rem;
+}
+
+.nav_menu li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
