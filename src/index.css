@@ -40,7 +40,7 @@ a {
   border: 1px solid #fff;
   border-radius: 3px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -62,3 +62,5 @@ a {
 @import url("./styles/home.css");
 @import url("./styles/about.css");
 @import url("./styles/contact.css");
+@import url("./styles/backgroundImg.css");
+@import url("./styles/footer.css");

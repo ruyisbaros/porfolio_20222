@@ -3,7 +3,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+  /* background: transparent; */
   /* background-color: #eee; */
+}
+
+.header_bg{
+  background-color: rgba(0,0,0,0.85);
+  transition: 0.5s;
 }
 
 .nav_menu {
@@ -33,8 +43,12 @@
     background: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 0;
-    left: 0;
+    left: -100%;
     z-index: -3;
+    transition:.5s;
+  }
+  .nav_menu.active{
+    left: 0;
   }
 
   .nav_menu li {
