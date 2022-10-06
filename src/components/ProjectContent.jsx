@@ -1,4 +1,5 @@
 import React from "react";
+import { TbHandFinger } from "react-icons/tb";
 import Masker from "./Masker";
 
 const ProjectContent = ({ contactMask, ptext, head1, head2 }) => {
@@ -10,7 +11,17 @@ const ProjectContent = ({ contactMask, ptext, head1, head2 }) => {
         <h1>
           {head1}
           <br />
-          {head2}
+          {head2}{" "}
+          <a href="#work_cards">
+            <TbHandFinger
+              size={30}
+              style={{
+                transform: "rotate(180deg)",
+                cursor: "pointer",
+                marginLeft: "20px",
+              }}
+            />
+          </a>
         </h1>
       </div>
     </div>

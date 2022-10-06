@@ -1,0 +1,23 @@
+.loading {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    border: 2px solid gray;
+    border-bottom-color: teal;
+    border-left-color: teal;
+    border-right-color: teal;
+    position: relative;
+    animation: turner 1s infinite linear;
+}
+
+@keyframes turner {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

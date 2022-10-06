@@ -6,7 +6,7 @@ import pro3 from "../assets/project3.png";
 
 const WorkCard = () => {
   return (
-    <div className="work_container">
+    <div className="work_container" id="work_cards">
       <h1 className="project_heading">Projects</h1>
       <div className="project_container">
         <div className="project_card">

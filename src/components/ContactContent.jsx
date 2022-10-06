@@ -4,13 +4,13 @@ import { TbHandFinger } from "react-icons/tb";
 
 const ContactContent = ({ contactMask, ptext, head1, head2 }) => {
   return (
-    <div className="background_layer">
+    <div id="header" className="background_layer">
       <Masker url={contactMask} />
       <div className="bg_content">
         <p>{ptext}</p>
         <h1>
           {head1}{" "}
-          <span>
+          <a href="#contact">
             <TbHandFinger
               size={30}
               style={{
@@ -19,7 +19,7 @@ const ContactContent = ({ contactMask, ptext, head1, head2 }) => {
                 marginLeft: "20px",
               }}
             />
-          </span>
+          </a>
           <br />
           {head2}
         </h1>
