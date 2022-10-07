@@ -49,7 +49,7 @@ const AboutDetails = () => {
             students to develop their MERN stack skills. We have been developing
             small and medium sized MERN Stack projects together. In the
             meantime, I am deepening my existing knowledge even more. <br />{" "}
-            <br /> I can handle coding a modern a website front-to-end,
+            <br /> I can handle coding a modern website front-to-end,
             end-to-front. In this sense, I can effectively use many of most
             modern Full Stack Web Development tools such as JavaScript, React,
             HTML5, CSS3, Java, Spring Boot, Hibernate, Java security tools etc.
